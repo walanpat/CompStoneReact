@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './Hub.css';
-
-function App() {
+import CompStone_Board from './images/CompStone_Board.jpg';
+//Get our Hub to work properly (images of the compstone board)
+function Hub() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="Hub">
+      <header className="Hub-header">
+        <img src={logo} className="Hub-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/Hub.js</code> and save to reload.
           </p>
           <br></br>
-
           <div className="hero">
             <div className="hero-content">
               <button id="play" type="button">Play Game</button>
@@ -19,7 +19,6 @@ function App() {
               <button id="wiki">Card Wiki</button>
               <button id="signOut">Sign Out</button>
             </div>
-
           </div>        
         <a>
           Learn React
@@ -30,4 +29,4 @@ function App() {
 }
 
 
-export default App;
+export default Hub;
