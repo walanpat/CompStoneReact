@@ -5,38 +5,38 @@ import {
   Switch,
   NavLink,
   HashRouter,
-} from 'react-router-dom';
-import React from 'react';
-import logo from './logo.svg';
-import Howtoplay from './pages/howtoplay/Howtoplay';
-import SignIn from './pages/signin/Signin';
-import Wiki from './pages/cardwiki/Wiki';
-import './Hub.css';
-import CompStone_Board from './images/CompStone_Board.jpg';
+} from "react-router-dom";
+import React from "react";
+import logo from "./logo.svg";
+import Howtoplay from "./pages/howtoplay/Howtoplay";
+import SignIn from "./pages/signin/Signin";
+import Wiki from "./pages/cardwiki/Wiki";
+import "./Hub.css";
+import CompStone_Board from "./images/CompStone_Board.jpg";
 //Get our Hub to work properly (images of the compstone board)
 
-function Hub() {
+const Hub = () => {
   return (
-    <div className='Hub'>
-      <header className='Hub-header'>
-        <img src={logo} className='Hub-logo' alt='logo' />
+    <div className="Hub">
+      <header className="Hub-header">
+        <img src={logo} className="Hub-logo" alt="logo" />
 
-        <div className='hub'>
-          <div className='hub-content'>
+        <div className="hub">
+          <div className="hub-content">
             <Router>
-              <Link to='/howtoplay' className='button'>
+              <Link to="/howtoplay" className="button">
                 How To Play
               </Link>
-              <Link to='/wiki' className='button'>
+              <Link to="/wiki" className="button">
                 Card Wiki
               </Link>
-              <Link to='/howtoplay' className='button'>
+              <Link to="/signin" className="button">
                 Sign In
               </Link>
                 
-              <Route path='/howtoplay' component={Howtoplay} />
-              <Route path='/wiki' component={Wiki} />
-              <Route path='/howtoplay' component={Howtoplay} />
+              <Route path="/howtoplay" component={Howtoplay} />
+              <Route path="/wiki" component={Wiki} />
+              <Route path="/signin" component={<p>Coming Soon</p>} />
             </Router>
           </div>
         </div>
@@ -47,19 +47,7 @@ function Hub() {
       </header>
     </div>
   );
-}
-/*
-     <Router>
-              <NavLink exact to = "/">someshit</NavLink>
-              <NavLink to="/howtoplay" className="button">How To Play</NavLink>
-              <NavLink to="/wiki" className="button">Card Wiki</NavLink>
-              <NavLink to="/howtoplay" className="button">Sign In</NavLink>
+};
 
-                <Route exact path="/" component={Hub}/>
-              <Route path="/howtoplay" component={Howtoplay}/>
-              <Route path="/wiki" component={Wiki}/>
-              <Route path="/howtoplay" component={Howtoplay}/>
-              </Router>
-*/
 
 export default Hub;

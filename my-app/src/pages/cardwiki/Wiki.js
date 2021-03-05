@@ -1,7 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Wiki = () => {
-  return <p> meme</p>;
+  return (
+    <div>
+      
+    </div>
+  );
 };
 
 export default Wiki;
