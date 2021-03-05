@@ -8,8 +8,9 @@ import {
 } from 'react-router-dom';
 import React from 'react';
 import logo from './logo.svg';
-import Howtoplay from './Howtoplay';
-import Wiki from './Wiki';
+import Howtoplay from './pages/howtoplay/Howtoplay';
+import SignIn from './pages/signin/Signin';
+import Wiki from './pages/cardwiki/Wiki';
 import './Hub.css';
 import CompStone_Board from './images/CompStone_Board.jpg';
 //Get our Hub to work properly (images of the compstone board)
