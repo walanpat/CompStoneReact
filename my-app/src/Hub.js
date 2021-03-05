@@ -44,6 +44,7 @@ const Hub = () => {
           Here we will input some stuff, hell maybe even make this a hub page
           that dynamically changes once you've logged in
         </a>
+        {1===1?<div>true</div>:<p>False</p>}
       </header>
     </div>
   );
