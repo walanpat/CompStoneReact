@@ -11,6 +11,7 @@ import logo from "./logo.svg";
 import Howtoplay from "./pages/howtoplay/Howtoplay";
 import SignIn from "./pages/signin/Signin";
 import Wiki from "./pages/cardwiki/Wiki";
+import GameBoard from './engine/GameBoard/GameBoard';
 import "./Hub.css";
 import CompStone_Board from "./images/CompStone_Board.jpg";
 //Get our Hub to work properly (images of the compstone board)
@@ -33,10 +34,15 @@ const Hub = () => {
               <Link to="/signin" className="button">
                 Sign In
               </Link>
+              <Link to="/playgame" className="button">
+                Play Game
+              </Link>
                 
               <Route path="/howtoplay" component={Howtoplay} />
               <Route path="/wiki" component={Wiki} />
               <Route path="/signin" component={<p>Coming Soon</p>} />
+              <Route path="/playgame" component={GameBoard} />
+
             </Router>
           </div>
         </div>
