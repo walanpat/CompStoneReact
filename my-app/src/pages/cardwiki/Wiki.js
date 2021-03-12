@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
+import cardData from "../../engine/Cards";
 
 const Wiki = () => {
-  return <p> meme</p>;
+  return (
+    <div>
+      {cardData!==null?cardData.map(e =>(e.cardimg)):null}
+    </div>
+  );
 };
 
 export default Wiki;
