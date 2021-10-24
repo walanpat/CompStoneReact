@@ -1,3 +1,53 @@
+import img0 from '../images/cards/0.png';
+import img1 from '../images/cards/1.png';
+import img2 from '../images/cards/2.png';
+import img3 from '../images/cards/3.png';
+import img4 from '../images/cards/4.png';
+import img5 from '../images/cards/5.png';
+import img6 from '../images/cards/6.png';
+import img7 from '../images/cards/7.png';
+import img8 from '../images/cards/8.png';
+import img9 from '../images/cards/9.png';
+import img10 from '../images/cards/10.png';
+import img11 from '../images/cards/11.png';
+import img12 from '../images/cards/12.png';
+import img13 from '../images/cards/13.png';
+import img14 from '../images/cards/14.png';
+import img15 from '../images/cards/15.png';
+import img16 from '../images/cards/16.png';
+import img17 from '../images/cards/17.png';
+import img18 from '../images/cards/18.png';
+import img19 from '../images/cards/19.png';
+import img20 from '../images/cards/20.png';
+import img21 from '../images/cards/21.png';
+import img22 from '../images/cards/22.png';
+import img23 from '../images/cards/23.png';
+import img24 from '../images/cards/24.png';
+import img25 from '../images/cards/25.png';
+import img26 from '../images/cards/26.png';
+import img27 from '../images/cards/27.png';
+import img28 from '../images/cards/28.png';
+import img29 from '../images/cards/29.png';
+import img30 from '../images/cards/30.png';
+import img31 from '../images/cards/31.png';
+import img32 from '../images/cards/32.png';
+import img33 from '../images/cards/33.png';
+import img34 from '../images/cards/34.png';
+import img35 from '../images/cards/35.png';
+import img36 from '../images/cards/36.png';
+import img37 from '../images/cards/37.png';
+import img38 from '../images/cards/38.png';
+import img39 from '../images/cards/39.png';
+import img40 from '../images/cards/40.png';
+import img41 from '../images/cards/41.png';
+import img42 from '../images/cards/42.png';
+import img43 from '../images/cards/43.png';
+import img44 from '../images/cards/44.png';
+import img45 from '../images/cards/45.png';
+import img46 from '../images/cards/46.png';
+import img47 from '../images/cards/47.png';
+import img48 from '../images/cards/48.png';
+import img49 from '../images/cards/49.png';
 
 /*
     id: the id of the card
@@ -32,11 +82,11 @@
  */
 //Add in a configuration with the deck that You can have at least 3 TA type cards in your deck (maximum of 3)
 //This will allow us to fluff up the deck numberes without being a little extreme on anything else
-const cardData = () => [
+const cardData = [
   {
     id: 0,
     name: 'Kris Jordan',
-    cardimg: 'link here',
+    cardimg: img0,
     visualeffect: 'link here',
     attack: 3,
     defense: 15,
@@ -51,7 +101,7 @@ const cardData = () => [
   {
     id: 1,
     name: 'Departmental King, KMP',
-    cardimg: 'link here',
+    cardimg: img1,
     visualeffect: 'link here',
     attack: 4,
     defense: 5,
@@ -66,7 +116,7 @@ const cardData = () => [
   {
     id: 2,
     name: 'The Eternal One: David Plaisted',
-    cardimg: 'link here',
+    cardimg: img2,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -81,7 +131,7 @@ const cardData = () => [
   {
     id: 3,
     name: 'COMP110 TA',
-    cardimg: 'link here',
+    cardimg: img3,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -96,7 +146,7 @@ const cardData = () => [
   {
     id: 4,
     name: 'Office Hours',
-    cardimg: 'link here',
+    cardimg: img4,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -111,7 +161,7 @@ const cardData = () => [
   {
     id: 5,
     name: 'Curve',
-    cardimg: 'link here',
+    cardimg: img5,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -126,7 +176,7 @@ const cardData = () => [
   {
     id: 6,
     name: 'Stack Overflow',
-    cardimg: 'link here',
+    cardimg: img6,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -141,7 +191,7 @@ const cardData = () => [
   {
     id: 7,
     name: 'Exam',
-    cardimg: 'link here',
+    cardimg: img7,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -156,7 +206,7 @@ const cardData = () => [
   {
     id: 8,
     name: 'Snoeyink the Origami Lord',
-    cardimg: 'link here',
+    cardimg: img8,
     visualeffect: 'link here',
     attack: 1,
     defense: 1,
@@ -171,7 +221,7 @@ const cardData = () => [
   {
     id: 9,
     name: 'Anish, the Prankster',
-    cardimg: 'link here',
+    cardimg: img9,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -186,7 +236,7 @@ const cardData = () => [
   {
     id: 10,
     name: 'Comp Sci Overcrowding!',
-    cardimg: 'link here',
+    cardimg: img10,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -203,7 +253,7 @@ const cardData = () => [
   {
     id: 11,
     name: 'Sitterson Pizza Event',
-    cardimg: 'link here',
+    cardimg: img11,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -218,7 +268,7 @@ const cardData = () => [
   {
     id: 12,
     name: 'Legendary TA Rosh',
-    cardimg: 'link here',
+    cardimg: img12,
     visualeffect: 'link here',
     attack: 2,
     defense: 10,
@@ -233,7 +283,7 @@ const cardData = () => [
   {
     id: 13,
     name: 'Robotics Lord Ron Alterovitz',
-    cardimg: 'link here',
+    cardimg: img13,
     visualeffect: 'link here',
     attack: 2,
     defense: 4,
@@ -248,7 +298,7 @@ const cardData = () => [
   {
     id: 14,
     name: 'Legendary Professor Bishop: Destroyer of Worlds',
-    cardimg: 'link here',
+    cardimg: img14,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -264,7 +314,7 @@ const cardData = () => [
   {
     id: 15,
     name: 'WeedOut Classes',
-    cardimg: 'link here',
+    cardimg: img15,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -280,7 +330,7 @@ const cardData = () => [
     //
     id: 16,
     name: 'BS to BA',
-    cardimg: 'link here',
+    cardimg: img16,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -295,7 +345,7 @@ const cardData = () => [
   {
     id: 17,
     name: 'Caffeine Addiction',
-    cardimg: 'link here',
+    cardimg: img17,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -310,7 +360,7 @@ const cardData = () => [
   {
     id: 18,
     name: 'Mips Rush',
-    cardimg: 'link here',
+    cardimg: img18,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -326,7 +376,7 @@ const cardData = () => [
   {
     id: 19,
     name: 'Sitterson: Home',
-    cardimg: 'link here',
+    cardimg: img19,
     visualeffect: 'link here',
     attack: 1,
     defense: 3,
@@ -341,7 +391,7 @@ const cardData = () => [
   {
     id: 20,
     name: 'Procrastinate',
-    cardimg: 'link here',
+    cardimg: img20,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -357,7 +407,7 @@ const cardData = () => [
   {
     id: 21,
     name: 'Coding Passion',
-    cardimg: 'link here',
+    cardimg: img21,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -371,25 +421,10 @@ const cardData = () => [
     author: 'Alan',
   },
   {
-    id: 21,
-    name: 'Djisktras Algorithm',
-    cardimg: 'link here',
-    visualeffect: 'link here',
-    attack: 0,
-    defense: 0,
-    cost: 3,
-    ability: 'Attack',
-    abilityName: 'Graph Theory Incoming',
-    abilityDescription: 'Deals 5 damage to the opponent',
-    abilityNumber: 0,
-    type: 'spell',
-    author: 'Alan',
-  },
-  {
     //Talk to someone who has taken a class with Montek
     id: 22,
     name: 'Legendary Professor: Montek',
-    cardimg: 'link here',
+    cardimg: img22,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -404,7 +439,7 @@ const cardData = () => [
   {
     id: 23,
     name: 'Legendary Professor: McMillan the Villain',
-    cardimg: 'link here',
+    cardimg: img23,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -419,7 +454,7 @@ const cardData = () => [
   {
     id: 24,
     name: 'Echoes of the Past: Pozefsky',
-    cardimg: 'link here',
+    cardimg: img24,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -435,7 +470,7 @@ const cardData = () => [
   {
     id: 25,
     name: 'Classmates in Genome 100',
-    cardimg: 'link here',
+    cardimg: img25,
     visualeffect: 'link here',
     attack: 5,
     defense: 5,
@@ -450,7 +485,7 @@ const cardData = () => [
   {
     id: 26,
     name: 'Internship',
-    cardimg: 'link here',
+    cardimg: img26,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -465,7 +500,7 @@ const cardData = () => [
   {
     id: 27,
     name: 'BA to BS',
-    cardimg: 'link here',
+    cardimg: img27,
     visualeffect: 'link here',
     attack: 5,
     defense: 0,
@@ -481,7 +516,7 @@ const cardData = () => [
     //Higher health, lower attack monster
     id: 28,
     name: 'Computer Science Friends',
-    cardimg: 'link here',
+    cardimg: img28,
     visualeffect: 'link here',
     attack: 2,
     defense: 6,
@@ -497,7 +532,7 @@ const cardData = () => [
     //Higher attack, lower health monster
     id: 29,
     name: 'Computer Science Enemies',
-    cardimg: 'link here',
+    cardimg: img29,
     visualeffect: 'link here',
     attack: 6,
     defense: 2,
@@ -512,7 +547,7 @@ const cardData = () => [
   {
     id: 30,
     name: 'COMP401 TA',
-    cardimg: 'link here',
+    cardimg: img30,
     visualeffect: 'link here',
     attack: 4,
     defense: 2,
@@ -527,7 +562,7 @@ const cardData = () => [
   {
     id: 31,
     name: 'COMP410 TA',
-    cardimg: 'link here',
+    cardimg: img31,
     visualeffect: 'link here',
     attack: 4,
     defense: 4,
@@ -542,7 +577,7 @@ const cardData = () => [
   {
     id: 32,
     name: 'COMP411 TA',
-    cardimg: 'link here',
+    cardimg: img32,
     visualeffect: 'link here',
     attack: 4,
     defense: 4,
@@ -557,7 +592,7 @@ const cardData = () => [
   {
     id: 33,
     name: 'COMP283 TA',
-    cardimg: 'link here',
+    cardimg: img33,
     visualeffect: 'link here',
     attack: 3,
     defense: 3,
@@ -572,7 +607,7 @@ const cardData = () => [
   {
     id: 34,
     name: 'COMP455 TA',
-    cardimg: 'link here',
+    cardimg: img34,
     visualeffect: 'link here',
     attack: 5,
     defense: 5,
@@ -587,7 +622,7 @@ const cardData = () => [
   {
     id: 35,
     name: 'COMP550 TA',
-    cardimg: 'link here',
+    cardimg: img35,
     visualeffect: 'link here',
     attack: 5,
     defense: 5,
@@ -603,7 +638,7 @@ const cardData = () => [
   {
     id: 36,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img36,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -617,7 +652,7 @@ const cardData = () => [
   {
     id: 37,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img37,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -631,7 +666,7 @@ const cardData = () => [
   {
     id: 38,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img38,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -645,7 +680,7 @@ const cardData = () => [
   {
     id: 39,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img39,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -659,7 +694,7 @@ const cardData = () => [
   {
     id: 40,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img40,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -673,7 +708,7 @@ const cardData = () => [
   {
     id: 41,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img41,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -687,7 +722,7 @@ const cardData = () => [
   {
     id: 42,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img42,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -701,7 +736,7 @@ const cardData = () => [
   {
     id: 43,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img43,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -713,9 +748,24 @@ const cardData = () => [
     author: 'Alan',
   },
   {
+    id: 44,
+    name: 'Djisktras Algorithm',
+    cardimg: img44,
+    visualeffect: 'link here',
+    attack: 0,
+    defense: 0,
+    cost: 3,
+    ability: 'Attack',
+    abilityName: 'Graph Theory Incoming',
+    abilityDescription: 'Deals 5 damage to the opponent',
+    abilityNumber: 0,
+    type: 'spell',
+    author: 'Alan',
+  },
+  {
     id: 45,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img45,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -729,7 +779,7 @@ const cardData = () => [
   {
     id: 46,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img46,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -743,7 +793,7 @@ const cardData = () => [
   {
     id: 47,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img47,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -757,7 +807,7 @@ const cardData = () => [
   {
     id: 48,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img48,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
@@ -771,7 +821,7 @@ const cardData = () => [
   {
     id: 49,
     name: 'temp',
-    cardimg: 'link here',
+    cardimg: img49,
     visualeffect: 'link here',
     attack: 0,
     defense: 0,
